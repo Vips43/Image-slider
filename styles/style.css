@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.733);
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h3{
+    height: 30px;
+    width:  150px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+.slider{ /*slider div design*/
+    position: relative;
+    height: 400px;
+    width: 600px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.prev , .next{
+    color: rgba(4, 61, 4, 0.603);
+    font-size: 2.5rem;;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px rgb(49, 23, 23);
+}
+.prev:hover,.next:hover{ /*prev, next button hover effects*/
+    color: brown;
+    transform: scale(.9);
+    text-shadow: none;
+}
+.frame{
+    max-width: 500px;
+    height: 300px;
+    min-height: 200px;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 8px rgba(65, 60, 50, 0.274);
+}
+.slide{ /*slide section design*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: all .8s ease;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.slide .img{ /*images section*/
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.slider ul{ /*<ul> <li> section*/
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    color: black;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 30px;
+}
+.slider ul li{
+    margin: 0;
+    padding: 0;
+}
