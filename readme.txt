@@ -10,3 +10,4 @@ button it will make you to go next image And
 if you wanna see previous image press left side arrow 
 button it will make you to go previous image.
 
+you will see every second images on having on current image for remembering there is next image or no image.
