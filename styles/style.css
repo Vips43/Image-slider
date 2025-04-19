@@ -1,4 +1,4 @@
-*{
+ye*{
     margin: 0;
     height: 0;
     box-sizing: border-box;
@@ -77,7 +77,7 @@ body{
 .slider .bottom .button{
     width: 10px;
     height: 10px;
-    border: 1px solid #00000042;
+    border: 1px solid black;
     border-radius: 50%;
     cursor: pointer;
 } 
