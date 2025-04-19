@@ -79,4 +79,17 @@ left.addEventListener('click',()=>{
     }
     changeColor(); //setting Dots
 });
-
+// auto slider
+let slideInterval;
+const startSlideShow = ()=>{
+    slideInterval = setInterval(()=>{
+        if(count < img.length){
+        goNext();
+    }
+    else{ 
+        slide.style.transform = `translateX(0%)`;
+        count = 1; 
+    }
+    },3000);
+};
+startSlideShow();
